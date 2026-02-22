@@ -1,0 +1,13 @@
+li {
+  display: inline;
+  position: relative;
+}
+
+li::after {
+  content: "|";
+  margin: 0 10px;
+}
+
+li:last-child::after {
+  content: "";
+}
